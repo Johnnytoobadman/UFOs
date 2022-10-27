@@ -48,5 +48,34 @@
 
 ### THE DYNAMIC WEBPAGE
 
-!
-      
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFO%20_header_description.png) 
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFOs%20_datatable_filters.png)
+*Note: table is truncated to save space*
+
+### FILTERING ON DATE
+
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFO's_date_sort.png)
+
+### FILTERING ON DATE WITH NO DATA AVAILABLE
+
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFOs_datatable_no_data.png)
+
+### FILTERING ON STATE
+
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFOs_statedate_sort.png)
+
+### FILTERING ON SHAPE (TYPE)
+
+![__](https://github.com/Johnnytoobadman/UFOs/blob/main/static/images/UFOs_shape_sort.png)
+
+## SUMMARY
+
+### Overview of the analysis :  The webpage was dynamic and correctly filtered the user input.  The overall appearance was great and the response time was perfect.  The header did grab the users interest with the awesome nasa.jpg image provided.  The JavaScript components successfully searched for the user input and properly filtered the table to return the requested values.
+
+### The process for filtering the data and searching for a specific result was fairly easy as long as you input existing data into the input fields.
+
+### The drawbacks observed with this webpage/filtering function was that it required input in a specific order: dates must not include leading "0's", cities, states, countries and shapes must match exactly, or as in this case "lowercase", and lastly the preloaded data is not blanked out after user input filtering which can be misleading.
+
+### Recommendations for improvements include 1) providing a "no data available" result such as when I input a date with no related data and  2) making the user input not case sensitive or exact date specific.  Use the regex commands to accept and correct user input to match the existing data if it is within certain parameters.
+
+end
