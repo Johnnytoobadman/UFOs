@@ -2,11 +2,11 @@
 
 ## OVERVIEW
 
-### Dana is a Datajounalist.  She is from a town that has a history with UFO sigtings and has a big interest in the subject.  She has a javascript datafile on UFO sightings including details like: dates, cities, states, countries, types of sigtings and descriptions.
+### Dana is a Datajounalist.  She is from a town that has a history of UFO sightings and has a big interest in the subject.  She has a javascript datafile on UFO sightings including details like: dates, cities, states, countries, types of sightings and descriptions.
 
-### The plan for Dana is to build a website that will allow users to filter the data as they like (e.g. by date, city, state, type etc.).  This project is going to use JavaScript which is a front end development language.  It adds functions and customizations to enhance the user experience.  The focus of this project will be to develop dynamic webpages.  These will be built by inserting JavaScript into an HTML page.  WE will also incorporate our knowledge of CSS, bootstrap and Chrome Development tools.
+### The plan for Dana is to build a website that will allow users to filter the data as they like (e.g. by date, city, state, type etc.).  This project is going to use JavaScript which is a front end development language.  It adds functions and customizations to enhance the user experience.  The focus of this project will be to develop dynamic webpages.  These will be built by inserting JavaScript into an HTML page.  We will also incorporate our knowledge of CSS, bootstrap and Chrome Development tools.
 
-### The first step in this project will be to build a table and then add filters to the table that will allow users to refine their search on more thab one level.  This webpage will also include an attention grabbing header, an article summary and a brief article description with the goal of presenting an interactive webpage that is also visually appealing.
+### The first step in this project will be to build a table and then add filters to the table that will allow users to refine their search on more than one level.  This webpage will also include an attention grabbing header, an article summary and a brief article description with the goal of presenting an interactive webpage that is also visually appealing.
 
 ## RESOURCES
 
@@ -74,7 +74,7 @@
 
 ### The process for filtering the data and searching for a specific result was fairly easy as long as you input existing data into the input fields.
 
-### The drawbacks observed with this webpage/filtering function was that it required input in a specific order: dates must not include leading "0's", cities, states, countries and shapes must match exactly, or as in this case "lowercase", and lastly the preloaded data is not blanked out after user input filtering which can be misleading.
+### The drawbacks observed with this webpage/filtering function was that it required input in a specific order: dates must not include leading "0's", cities, states, countries and shapes must match exactly, or as in this case "lowercase", and lastly the preloaded data is not blanked out after user input filtering which can give misleading results (e.g. boulder, az).
 
 ### Recommendations for improvements include 1) providing a "no data available" result such as when I input a date with no related data and  2) making the user input not case sensitive or exact date specific.  Use the regex commands to accept and correct user input to match the existing data if it is within certain parameters.
 
